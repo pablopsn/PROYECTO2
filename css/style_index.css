@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+header{
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+    border-radius: 15px;
+    left: 4%;
+    max-width: 90%;
+}
+
+.fondo{
+    width: 100%;
+    max-width: 1480px;
+    max-height: 690px;
+    overflow: hidden;
+}
+.img_fon{
+    width:100%;
+    height: 100%;
+}
+
+.p1 {
+    color: rgb(43, 42, 0);
+    font: 400 1em/1.5 "Neuton";
+    background: #090d00; 
+    color: #ad5312cd;
+    text-align:center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double #ad5312cd;
+	border-width: 4px 0;
+	position: relative;
+    width:100%;
+}
+  
+header span {
+
+  	font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+
+/* Imagen fondo */
+
+	  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animacion */
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 100s linear infinite;
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+}
+
+/* Animacion imagen */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+
+}
+.navbar{
+    list-style: none;
+    display:table-row;
+    background-color:black;
+    max-width: 94%;
+    height: 4%;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar ul{
+    align-self: center;
+    background-color: black;
+    padding: 0;
+    max-width: max-content;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 0;
+    width: 25%;
+    max-height: 1%;
+}
+
+.navbar ul li a{
+    color: #ad5312cd;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 10px 100px;
+}
+
+.navbar ul li a:hover{
+    background-color: #ad5312cd;
+    border-radius: 4px;
+    color: black;
+    font-weight: bolder;
+}
+
+.disp{
+    overflow: hidden;
+    position: relative;
+    margin-top: 0px;
+    margin: 1%;
+    border-radius: 15px;
+    left: 4%;
+    max-width: 90%;
+    
+}
+
+.img_flot{
+    width: 100%;
+    max-width: 1480px;
+    max-height: 690px;
+    overflow: hidden;
+}
+
+main{
+    font-family: 'Raleway', sans-serif;
+    background: black;
+    margin-left: 5%;
+    max-width: 90%;
+    padding: 3%;
+    border-style:solid;
+    border-width: 10px;
+    border-color: #ad5312cd;
+    border-radius: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.p2{
+    color: #ad5312cd;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+}
+
+.p3{
+    color: #ad5312cd;
+    background-color: black;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.pie{
+    width: 100%;
+    background-color: black;
+    font-family:'Raleway', sans-serif;
+}
+
+.pie .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+    height: 100px;
+
+}
+
+.pie .grupo-1 .box figure{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie .grupo-1 .box figure a img{
+    width: 150px;
+    padding-bottom: 50px;
+}
+
+.pie .grupo-1 .box h2{
+    color:#ad5312cd;
+    margin-bottom: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.pie .grupo-1 .box p{
+    color: #ad5312cd;
+    margin-bottom: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.pie .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #ad5312cd;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    transition: all 3ms ease;
+}
+
+.pie .grupo-1 .red-social a:hover{
+    color: black;
+    background-color: #ad5312cd;
+}
+
+.pie .grupo-2{
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ad5312cd;
+}
+
+.pie .grupo-2 small{
+    font-size: 10px;
+}
+
+@media screen and (max-width:800px){
+    .pie .grupo-1{
+        width:100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:50px;
+        padding: 25px 0px;
+    }
+}
